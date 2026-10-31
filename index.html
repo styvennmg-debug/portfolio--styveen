@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de HAJANANTENAINA ANTEMANOKALIANA Sandry Styveen, étudiant en informatique de gestion et développeur web.">
+    <meta name="author" content="HAJANANTENAINA ANTEMANOKALIANA Sandry Styveen">
+    <title>Styveen | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">STYVEEN<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="subtitle">BIENVENUE SUR MON PORTFOLIO</p>
+
+                <h1>
+                    Bonjour, je suis
+                    <span>HAJANANTENAINA ANTEMANOKALIANA Sandry Styveen</span>
+                </h1>
+
+                <h2>Développeur Web & Applications de Gestion</h2>
+
+                <p class="hero-description">
+                    Étudiant en Informatique de Gestion, passionné par le développement web,
+                    la création d'applications et les nouvelles technologies.
+                    Je recherche un stage de fin d'études pour mettre mes compétences en pratique.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Découvrir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/styvennmg-debug" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="mailto:styvennmg@gmail.com">Email ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/moi.png" alt="Photo de profil de Styveen">
+                </div>
+                <div class="floating-card">
+                    <span class="status-dot"></span>
+                    Disponible pour un stage
+                </div>
+            </div>
+        </section>
+
+        <section class="about section container" id="about">
+            <p class="section-subtitle">DÉCOUVREZ MON PARCOURS</p>
+            <h2 class="section-title">À propos de <span>moi</span></h2>
+
+            <p>
+                Je suis HAJANANTENAINA ANTEMANOKALIANA Sandry Styveen,
+                étudiant en Licence en Informatique de Gestion.
+                Je m'intéresse particulièrement au développement web,
+                aux systèmes d'information, aux applications de gestion
+                et à l'utilisation de l'intelligence artificielle.
+            </p>
+        </section>
+
+        <section class="skills section container" id="skills">
+            <p class="section-subtitle">MON SAVOIR-FAIRE</p>
+            <h2 class="section-title">Mes <span>compétences</span></h2>
+            <div class="skills-grid" id="skillsGrid"></div>
+        </section>
+
+        <section class="projects section container" id="projects">
+            <p class="section-subtitle">MES RÉALISATIONS</p>
+            <h2 class="section-title">Mes <span>projets</span></h2>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </section>
+
+        <section class="education section container" id="education">
+            <p class="section-subtitle">MON PARCOURS</p>
+            <h2 class="section-title">Formation <span>académique</span></h2>
+
+            <div class="education-card">
+                <span class="education-year">2024 – 2027</span>
+                <h3>Licence en Informatique de Gestion</h3>
+                <p>IS Info</p>
+                <p>Formation en informatique, développement et gestion des systèmes d'information.</p>
+            </div>
+        </section>
+
+        <section class="contact section container" id="contact">
+            <p class="section-subtitle">TRAVAILLONS ENSEMBLE</p>
+            <h2 class="section-title">Me <span>contacter</span></h2>
+
+            <div class="contact-grid">
+                <a href="mailto:styvennmg@gmail.com" class="contact-card">
+                    <h3>Email</h3>
+                    <p>styvennmg@gmail.com</p>
+                </a>
+
+                <a href="tel:0343705677" class="contact-card">
+                    <h3>Téléphone</h3>
+                    <p>034 37 056 77</p>
+                </a>
+
+                <div class="contact-card">
+                    <h3>Localisation</h3>
+                    <p>Ambatomainty, Antananarivo</p>
+                </div>
+
+                <a href="https://github.com/styvennmg-debug" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <h3>GitHub</h3>
+                    <p>styvennmg-debug ↗</p>
+                </a>
+            </div>
+
+            <div class="cv-container">
+                <h3>Mon curriculum vitae</h3>
+                <p>Consultez mon parcours et mes qualifications.</p>
+                <a href="cv.pdf" download class="btn btn-primary">Télécharger mon CV PDF</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> <span id="currentYear"></span> HAJANANTENAINA ANTEMANOKALIANA Sandry Styveen.</p>
+        <a href="#home">Retour en haut ↑</a>
+    </footer>
+
+</body>
+</html>
